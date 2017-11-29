@@ -1,0 +1,2 @@
+20 19 * * * umask 0007 && /usr/local/lab/People/Aki/ForLabMembers/job_scheduler/run_parallel.sh 30 /usr/local/lab/People/Aki/ForLabMembers/ > /usr/local/home/amitani/cron2.log 2>&1 
+12 * * * * umask 0007 && /usr/local/lab/People/Aki/ForLabMembers/job_scheduler/sync.py > /usr/local/home/amitani/sync.log 2>&1 
